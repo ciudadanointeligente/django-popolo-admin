@@ -35,7 +35,7 @@ I don't have a clue of how to test this. Does anyone do?
 
 ## TODOs
 - [x] People's admin
-- [ ] Organization's admin
+- [x] Organization's admin
 - [ ] Post's admin
 - [ ] Membership's admin
 - [ ] Contact Detail's admin
