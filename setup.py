@@ -10,11 +10,14 @@ setup(name='django_popolo_admin',
       url='https://ciudadanointeligente.org/',
       description='This project adds an admin interface to django_popolo',
       long_description=open("README.md").read(),
-      install_requires=['Django >= 1.4.3'],
       classifiers=[
           'Framework :: Django',
       ],
       install_requires=[
-          "-e git+git@github.com:openpolis/django-popolo.git#egg=django_popolo-dev",
+          "Django >= 1.4.3",
+          "django-popolo",
       ],
+      dependency_links=[
+          "https://github.com/openpolis/django-popolo/tarball/master#egg=django-popolo",
+      ]
 )
