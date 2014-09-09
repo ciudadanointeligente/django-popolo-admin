@@ -14,4 +14,7 @@ setup(name='django_popolo_admin',
       classifiers=[
           'Framework :: Django',
       ],
+      install_requires=[
+          "-e git+git@github.com:openpolis/django-popolo.git#egg=django_popolo-dev",
+      ],
 )
