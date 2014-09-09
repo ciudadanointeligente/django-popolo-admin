@@ -1,0 +1,3 @@
+git+git@github.com:openpolis/django-popolo.git#egg=django_popolo-dev
+# it could also be 
+# mysociety-django-popolo
