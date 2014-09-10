@@ -15,10 +15,9 @@ setup(name='django_popolo_admin',
       ],
       install_requires=[
           "Django >= 1.4.3",
-          "django-popolo",
       ],
       dependency_links=[
-          "https://github.com/openpolis/django-popolo/tarball/master#egg=django-popolo",
+          ## "https://github.com/openpolis/django-popolo/tarball/master#egg=django-popolo",
           ## It could also be
           ## mysociety-django-popolo
           ## that is already in pypi
